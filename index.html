@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tic Tac Toe Game</title>
+  <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+  <div class="players">
+    <div class="player1 active">O's Turn</div>
+    <div class="player2">X's Turn</div>
+  </div>
+
+  <div class="game-board">
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+  </div>
+
+  <div class="result inactive">
+    <h1>X Win the Game</h1>
+    <button>Restart</button>
+  </div>
+
+  <div class="leaderboard">
+    <h2>Leaderboard</h2>
+    <div class="player-score">
+      <span>Player O:</span>
+      <span class="score-o">0</span>
+    </div>
+    <div class="player-score">
+      <span>Player X:</span>
+      <span class="score-x">0</span>
+    </div>
+  </div>
+
+  <script src="tic.js"></script>
+</body>
+</html>
